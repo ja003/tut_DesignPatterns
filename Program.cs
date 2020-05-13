@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotNetDesignPatternDemos.Creational.Builder.Coding.Exercise;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,10 @@ namespace tut_DesignPatterns
 		{
 			Console.WriteLine("Main");
 
-			Exercise_Builder.Start();
+			var cb = new CodeBuilder("Person")
+			.AddField("Name", "string")
+			.AddField("Age", "int");
+			Console.WriteLine(cb);
 
 			Console.ReadKey();
 		}

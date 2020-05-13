@@ -1,59 +1,94 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
+//using NUnit.Framework;
 
-
-
-public class CodeBuilder
+namespace DotNetDesignPatternDemos.Creational.Builder
 {
-	string className;
-	List<Attribute> attributes = new List<Attribute>();
+    namespace Coding.Exercise
+    {
+        class Field
+        {
+            public string Type, Name;
 
-	public CodeBuilder(string pClass)
-	{
-		className = pClass;
-	}
+            public override string ToString()
+            {
+                return $"public {Type} {Name}";
+            }
+        }
 
-	public CodeBuilder AddField(string pName, string pType)
-	{
-		attributes.Add(new Attribute() { name = pName, type = pType });
-		return this;
-	}
+        class Class
+        {
+            public string Name;
+            public List<Field> Fields = new List<Field>();
 
-	public override string ToString()
-	{
-		return $"public class {className}{Environment.NewLine}" +
-			'{' + Environment.NewLine +
-				attributes[0].ToString() +
-			'}' + Environment.NewLine
-			;
-	}
+            public Class()
+            {
 
-	private class Attribute
-	{
-		public string type;
-		public string name;
+            }
 
-		public override string ToString()
-		{
-			return $"  public {type} {name};{Environment.NewLine}";
-		}
-	}
-}
+            public override string ToString()
+            {
+                var sb = new StringBuilder();
+                sb.AppendLine($"public class {Name}").AppendLine("{");
+                foreach(var f in Fields)
+                    sb.AppendLine($"  {f};");
+                sb.AppendLine("}");
+                return sb.ToString();
+            }
+        }
 
-public class Exercise_Builder
-{
-	//Console.WriteLine();
+        public class CodeBuilder
+        {
+            public CodeBuilder(string rootName)
+            {
+                theClass.Name = rootName;
+            }
 
-	public static void Start()
-	{
-		Console.WriteLine("Exercise_Builder");
+            public CodeBuilder AddField(string name, string type)
+            {
+                theClass.Fields.Add(new Field { Name = name, Type = type });
+                return this;
+            }
 
-		var cb = new CodeBuilder("Person")
-			.AddField("Name", "string")
-			.AddField("Age", "int");
-		Console.WriteLine(cb);
-	}
+            public override string ToString()
+            {
+                return theClass.ToString();
+            }
+
+            private Class theClass = new Class();
+        }
+    }
+
+//    namespace Coding.Exercise.UnitTests
+//    {
+//        [TestFixture]
+//        public class FirstTestSuite
+//        {
+//            private static string Preprocess(string s)
+//            {
+//                return s.Trim().Replace("\r\n", "\n");
+//            }
+
+//            [Test]
+//            public void EmptyTest()
+//            {
+//                var cb = new CodeBuilder("Foo");
+//                Assert.That(Preprocess(cb.ToString()), Is.EqualTo("public class Foo\n{\n}"));
+//            }
+
+//            [Test]
+//            public void PersonTest()
+//            {
+//                var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
+//                Assert.That(Preprocess(cb.ToString()),
+//                  Is.EqualTo(
+//                    @"public class Person
+//{
+//  public string Name;
+//  public int Age;
+//}"
+//                  ));
+//            }
+//        }
+//    }
 }
