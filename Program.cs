@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tut_DesignPatterns._4._Factory;
 
 namespace tut_DesignPatterns
 {
@@ -17,6 +18,13 @@ namespace tut_DesignPatterns
 			.AddField("Name", "string")
 			.AddField("Age", "int");
 			Console.WriteLine(cb);
+
+
+
+
+			Exercise_Factory.Start();
+
+
 
 			Console.ReadKey();
 		}
