@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="3. Builder\Exercise_Builder.cs" />
     <Compile Include="4. Factory\Exercise_Factory.cs" />
+    <Compile Include="5. Prototype\Exercise_Prototype.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
