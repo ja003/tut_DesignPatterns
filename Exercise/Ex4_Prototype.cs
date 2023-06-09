@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace tut_DesignPatterns._5._Prototype
 {
-	class Exercise_Prototype
+	class Ex4_Prototype
 	{
 		public static void Start()
 		{
@@ -21,6 +21,7 @@ namespace tut_DesignPatterns._5._Prototype
 			var copyLine = line.DeepCopy();
 			copyLine.Start.X = 1;
 			Console.WriteLine(copyLine.Start.X);
+            Console.WriteLine("----");
 		}
 	}
 }

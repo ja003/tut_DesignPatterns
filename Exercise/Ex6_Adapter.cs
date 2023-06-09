@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tut_DesignPatterns
 {
-	class Exercise_Adapter
+	class Ex6_Adapter
 	{
 		public static void Start()
 		{

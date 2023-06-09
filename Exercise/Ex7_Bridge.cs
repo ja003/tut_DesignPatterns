@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace tut_DesignPatterns
 {
-	class Exercise_Bridge
+	class Ex7_Bridge
 	{
 		public static void Start()
 		{

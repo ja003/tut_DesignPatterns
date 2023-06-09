@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace tut_DesignPatterns._4._Factory
 {
-	public static class Exercise_Factory
+	public static class Ex3_Factory
 	{
         public static void Start()
         {
@@ -15,6 +15,7 @@ namespace tut_DesignPatterns._4._Factory
             var fact = new Person.Factory();
             fact.CreatePerson("Adam");
             fact.CreatePerson("Téra");
+            Console.WriteLine("----");
         }
 
     }

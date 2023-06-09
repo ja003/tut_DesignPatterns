@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tut_DesignPatterns
 {
-    class Exercise_Singleton
+    class Ex5_Singleton
     {
         public static void Start()
         {

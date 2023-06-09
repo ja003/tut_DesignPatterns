@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using tut_DesignPatterns._4._Factory;
 using tut_DesignPatterns._5._Prototype;
+using tut_DesignPatterns.Exercise;
 
 namespace tut_DesignPatterns
 {
@@ -20,9 +21,11 @@ namespace tut_DesignPatterns
 			.AddField("Age", "int");
 			Console.WriteLine(cb);
 
-			Exercise_Factory.Start();
+			Ex3_Factory.Start();
 
-			Exercise_Prototype.Start();
+			Ex4_Prototype.Start();
+
+			Ex8_Composite.Start();
 
 
 

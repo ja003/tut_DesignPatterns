@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Coding.Exercise8;
 
 namespace tut_DesignPatterns.Exercise
 {
@@ -15,11 +16,19 @@ namespace tut_DesignPatterns.Exercise
     {
         public static void Start()
         {
+            Console.WriteLine("Ex8_Composite");
+            int sumAB = ExtensionMethods.Sum(new List<IValueContainer>()
+            {
+                new SingleValue(){Value = 1},
+                new SingleValue(){Value = 2}
+            });
+            Console.WriteLine($"1 + 2 = {sumAB}");
+            Console.WriteLine("----");
         }
     }
 }
 
-namespace Coding.Exercise9
+namespace Coding.Exercise8
 {
     public interface IValueContainer : IEnumerable<int>
     {

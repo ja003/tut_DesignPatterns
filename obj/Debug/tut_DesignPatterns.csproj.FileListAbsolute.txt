@@ -5,3 +5,10 @@ C:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\
 C:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.csproj.CoreCompileInputs.cache
 C:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.exe
 C:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.pdb
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\bin\Debug\tut_DesignPatterns.exe.config
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\bin\Debug\tut_DesignPatterns.exe
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\bin\Debug\tut_DesignPatterns.pdb
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.csproj.AssemblyReference.cache
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.csproj.CoreCompileInputs.cache
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.exe
+D:\Coding\tutorials\Design Patterns in C# and .NET\tut_DesignPatterns\obj\Debug\tut_DesignPatterns.pdb
