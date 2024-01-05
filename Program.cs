@@ -25,8 +25,8 @@ namespace tut_DesignPatterns
 			//Ex3_Factory.Start();
 
 			//Ex4_Prototype.Start();
-
-			Ex8_Composite.Start();
+			//Ex8_Composite.Start();
+			Ex9_Decorator.Start();
 
 
 
