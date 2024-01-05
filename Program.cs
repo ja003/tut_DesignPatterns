@@ -15,15 +15,16 @@ namespace tut_DesignPatterns
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Main");
+			Console.WriteLine();
 
-			var cb = new CodeBuilder("Person")
-			.AddField("Name", "string")
-			.AddField("Age", "int");
-			Console.WriteLine(cb);
+			//var cb = new CodeBuilder("Person")
+			//.AddField("Name", "string")
+			//.AddField("Age", "int");
+			//Console.WriteLine(cb);
 
-			Ex3_Factory.Start();
+			//Ex3_Factory.Start();
 
-			Ex4_Prototype.Start();
+			//Ex4_Prototype.Start();
 
 			Ex8_Composite.Start();
 
