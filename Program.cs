@@ -27,7 +27,8 @@ namespace tut_DesignPatterns
 			//Ex4_Prototype.Start();
 			//Ex8_Composite.Start();
 			//Ex9_Decorator.Start();
-			Ex10_Facade.Start();
+			//Ex10_Facade.Start();
+			Ex11_Flyweight.Start();
 
 
 
