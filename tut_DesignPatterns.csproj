@@ -46,6 +46,7 @@
     <Compile Include="Exercise\Ex2_Builder.cs" />
     <Compile Include="Exercise\Ex3_Factory.cs" />
     <Compile Include="Exercise\Ex4_Prototype.cs" />
+    <Compile Include="Exercise\Ex10_Facade.cs" />
     <Compile Include="Exercise\Ex9_Decorator.cs" />
     <Compile Include="Exercise\Ex8_Composite.cs" />
     <Compile Include="Exercise\Ex7_Bridge.cs" />
