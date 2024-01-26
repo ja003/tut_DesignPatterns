@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercise\Ex12_Proxy.cs" />
     <Compile Include="Exercise\Ex11_Flyweight.cs" />
     <Compile Include="Exercise\Ex2_Builder.cs" />
     <Compile Include="Exercise\Ex3_Factory.cs" />
