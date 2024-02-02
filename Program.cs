@@ -30,7 +30,8 @@ namespace tut_DesignPatterns
 			//Ex10_Facade.Start();
 			//Ex11_Flyweight.Start();
 			//Ex12_Proxy.Start();
-			Ex13_ChainOfResponsibility.Start();
+			//Ex13_ChainOfResponsibility.Start();
+			Ex15_Command.Start();
 
 
 
