@@ -44,6 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercise\Ex13_ChainOfResponsibility.cs" />
+    <Compile Include="Exercise\Ex19_.cs" />
+    <Compile Include="Exercise\Ex20.cs" />
+    <Compile Include="Exercise\Ex21.cs" />
+    <Compile Include="Exercise\Ex22.cs" />
+    <Compile Include="Exercise\Ex23.cs" />
+    <Compile Include="Exercise\Ex24.cs" />
+    <Compile Include="Exercise\Ex18_Memento.cs" />
+    <Compile Include="Exercise\Ex17_Mediator.cs" />
+    <Compile Include="Exercise\Ex16_Iterator.cs" />
     <Compile Include="Exercise\Ex15_Interpreter.cs" />
     <Compile Include="Exercise\Ex14_Command.cs" />
     <Compile Include="Exercise\Ex12_Proxy.cs" />

@@ -31,7 +31,10 @@ namespace tut_DesignPatterns
 			//Ex11_Flyweight.Start();
 			//Ex12_Proxy.Start();
 			//Ex13_ChainOfResponsibility.Start();
-			Ex15_Command.Start();
+			//Ex15_Command.Start();
+			//Ex16_Iterator.Start();
+			//Ex17_Mediator.Start();
+			Ex18_Memento.Start();
 
 
 
