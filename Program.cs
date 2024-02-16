@@ -34,7 +34,8 @@ namespace tut_DesignPatterns
 			//Ex15_Command.Start();
 			//Ex16_Iterator.Start();
 			//Ex17_Mediator.Start();
-			Ex18_Memento.Start();
+			//Ex18_Memento.Start();
+			Ex19_NullObject.Start();
 
 
 
