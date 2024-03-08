@@ -36,7 +36,8 @@ namespace tut_DesignPatterns
 			//Ex17_Mediator.Start();
 			//Ex18_Memento.Start();
 			//Ex19_NullObject.Start();
-			Ex20_Observer.Start();
+			//Ex20_Observer.Start();
+			Ex21_State.Start();
 
 
 
