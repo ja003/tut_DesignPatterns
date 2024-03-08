@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Exercise\Ex13_ChainOfResponsibility.cs" />
     <Compile Include="Exercise\Ex19_NullObject.cs" />
-    <Compile Include="Exercise\Ex20.cs" />
+    <Compile Include="Exercise\Ex20_Observer.cs" />
     <Compile Include="Exercise\Ex21.cs" />
     <Compile Include="Exercise\Ex22.cs" />
     <Compile Include="Exercise\Ex23.cs" />
