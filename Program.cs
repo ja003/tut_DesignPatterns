@@ -39,7 +39,8 @@ namespace tut_DesignPatterns
 			//Ex20_Observer.Start();
 			//Ex21_State.Start();
 			//Ex22_Strategy.Start();
-			Ex23_TemplateMethod.Start();
+			//Ex23_TemplateMethod.Start();
+			Ex24_Visitor.Start();
 
 
 
