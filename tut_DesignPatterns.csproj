@@ -64,7 +64,7 @@
     <Compile Include="Exercise\Ex20_Observer.cs" />
     <Compile Include="Exercise\Ex21_State.cs" />
     <Compile Include="Exercise\Ex22_Strategy.cs" />
-    <Compile Include="Exercise\Ex23.cs" />
+    <Compile Include="Exercise\Ex23_TemplateMethod.cs" />
     <Compile Include="Exercise\Ex24.cs" />
     <Compile Include="Exercise\Ex18_Memento.cs" />
     <Compile Include="Exercise\Ex17_Mediator.cs" />
